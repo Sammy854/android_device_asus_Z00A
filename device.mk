@@ -38,10 +38,11 @@ PRODUCT_COPY_FILES += \
     device/asus/Z00A/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/asus/Z00A/nfc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf
 
-# NFC packages
+# Additional packages
 PRODUCT_PACKAGES += \
     nfc_nci.bcm2079x.default \
     NfcNci \
+    PerformanceControl \
     Tag
 
 # Ramdisk config of governors
