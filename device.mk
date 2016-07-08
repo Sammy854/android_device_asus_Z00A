@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     nfc_nci.bcm2079x.default \
     NfcNci \
+    chromium \
     Tag
 
 # Ramdisk config of governors
