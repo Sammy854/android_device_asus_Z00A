@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/aosip_Z00A.mk \
+     $(LOCAL_DIR)/candy.mk \
      $(LOCAL_DIR)/device.mk
